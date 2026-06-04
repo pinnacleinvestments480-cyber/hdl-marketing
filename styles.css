@@ -1187,3 +1187,22 @@ p, li { text-wrap: pretty; }
   .hero-stats { flex-wrap: wrap; gap: var(--space-5); }
   .stat { min-width: calc(50% - var(--space-3)); }
 }
+
+/* ── Video Section ─────────────────────────────────────────────────────────── */
+.video-wrapper {
+  max-width: 860px;
+  margin-inline: auto;
+  margin-top: var(--space-8);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--color-border-light);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.5), 0 0 0 1px var(--color-border);
+  background: #000;
+  position: relative;
+}
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
