@@ -282,8 +282,17 @@ ctaForm?.addEventListener('submit', async (e) => {
   ctaBtnText.style.display = 'none';
   ctaSpinner.style.display = 'block';
 
-  // Simulate form submission (in production, POST to your backend)
-  await new Promise(resolve => setTimeout(resolve, 1500));
+  try {
+    const phone    = document.getElementById('field-phone')?.value.trim() || '';
+    const industry = document.getElementById('field-industry')?.value.trim() || '';
+    await fetch('https://hello-desk-leads-production.up.railway.app/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, business, phone, industry })
+    });
+  } catch (_) {
+    // Fail silently — still show success to visitor
+  }
 
   ctaSubmit.style.display = 'none';
   ctaSuccess.style.display = 'block';
