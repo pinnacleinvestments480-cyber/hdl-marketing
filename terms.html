@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Hello Desk Leads</title>
+  <meta name="description" content="Terms of Service for Hello Desk Leads, operated by The Campanile Group." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800,900&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .legal-hero {
+      padding: 7rem 0 3rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .legal-hero-label {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      background: var(--color-primary-glow);
+      border: 1px solid rgba(245,166,35,0.25);
+      border-radius: 999px;
+      padding: 0.3rem 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    .legal-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: 0.75rem;
+    }
+    .legal-meta {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      margin-top: 0.5rem;
+    }
+    .legal-body {
+      padding: 3.5rem 0 5rem;
+    }
+    .legal-layout {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .legal-layout { grid-template-columns: 1fr; }
+      .legal-toc { display: none; }
+    }
+    .legal-toc {
+      position: sticky;
+      top: 5rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .legal-toc-title {
+      font-family: var(--font-display);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .legal-toc a {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      padding: 0.3rem 0;
+      border-left: 2px solid transparent;
+      padding-left: 0.75rem;
+      transition: color 0.2s, border-color 0.2s;
+      line-height: 1.4;
+    }
+    .legal-toc a:hover {
+      color: var(--color-primary);
+      border-left-color: var(--color-primary);
+    }
+    .legal-content h2 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin: 2.5rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--color-border);
+      scroll-margin-top: 6rem;
+    }
+    .legal-content h2:first-child {
+      margin-top: 0;
+      border-top: none;
+    }
+    .legal-content p {
+      font-size: var(--text-sm);
+      line-height: 1.75;
+      color: var(--color-text-muted);
+      margin-bottom: 1rem;
+    }
+    .legal-content ul {
+      margin: 0.5rem 0 1rem 1.25rem;
+      list-style: disc;
+    }
+    .legal-content li {
+      font-size: var(--text-sm);
+      line-height: 1.75;
+      color: var(--color-text-muted);
+      margin-bottom: 0.3rem;
+    }
+    .legal-content a {
+      color: var(--color-primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .legal-content strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+    .legal-switch {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .legal-switch a {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 0.45rem 1rem;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .legal-switch a:hover, .legal-switch a.active {
+      color: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+    .legal-switch a.active {
+      background: var(--color-primary-glow-sm);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo" aria-label="Hello Desk Leads home">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#logo-grad-nav-t)"/>
+          <path d="M9 11h6v4H9v-4zm0 6h6v4H9v-4zm8-6h6v10h-6V11z" fill="white" opacity="0.9"/>
+          <defs>
+            <linearGradient id="logo-grad-nav-t" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F5A623"/><stop offset="1" stop-color="#C47800"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="nav-logo-text">Hello Desk <span class="accent">Leads</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="https://hello-desk-leads-production.up.railway.app/#/login" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Log In</a>
+        <a href="/#get-started" class="btn btn-primary btn-sm">Get Started</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="legal-hero">
+    <div class="container">
+      <div class="legal-hero-label">Legal</div>
+      <h1>Terms of Service</h1>
+      <p class="legal-meta">Effective Date: June 4, 2026 &nbsp;·&nbsp; Operated by The Campanile Group</p>
+      <div class="legal-switch">
+        <a href="terms.html" class="active">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="legal-body">
+    <div class="container">
+      <div class="legal-layout">
+
+        <!-- TOC -->
+        <aside class="legal-toc" aria-label="Table of contents">
+          <div class="legal-toc-title">Contents</div>
+          <a href="#acceptance">1. Acceptance of Terms</a>
+          <a href="#description">2. Description of Service</a>
+          <a href="#eligibility">3. Eligibility</a>
+          <a href="#registration">4. Account Registration</a>
+          <a href="#billing">5. Subscription &amp; Billing</a>
+          <a href="#acceptable-use">6. Acceptable Use</a>
+          <a href="#client-data">7. Client Data</a>
+          <a href="#ip">8. Intellectual Property</a>
+          <a href="#third-party">9. Third-Party Services</a>
+          <a href="#disclaimers">10. Disclaimers</a>
+          <a href="#liability">11. Limitation of Liability</a>
+          <a href="#indemnification">12. Indemnification</a>
+          <a href="#termination">13. Termination</a>
+          <a href="#governing-law">14. Governing Law</a>
+          <a href="#changes">15. Changes to Terms</a>
+          <a href="#contact">16. Contact</a>
+        </aside>
+
+        <!-- CONTENT -->
+        <div class="legal-content">
+
+          <h2 id="acceptance">1. Acceptance of Terms</h2>
+          <p>By accessing or using Hello Desk Leads (the "Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Service. These Terms constitute a legally binding agreement between you and The Campanile Group ("Company," "we," "us," or "our").</p>
+
+          <h2 id="description">2. Description of Service</h2>
+          <p>Hello Desk Leads is an AI-powered lead management and customer communication platform that provides businesses with tools including AI chat, appointment booking, lead tracking, CRM functionality, email communication, and related services. Features may be updated, modified, or discontinued at any time.</p>
+
+          <h2 id="eligibility">3. Eligibility</h2>
+          <p>You must be at least 18 years of age and have the legal authority to enter into contracts to use the Service. By using the Service, you represent that you meet these requirements.</p>
+
+          <h2 id="registration">4. Account Registration</h2>
+          <p>To access the Service, you must create an account. You agree to:</p>
+          <ul>
+            <li>Provide accurate, current, and complete information during registration</li>
+            <li>Maintain the security of your password and account credentials</li>
+            <li>Notify us immediately of any unauthorized use of your account</li>
+            <li>Accept responsibility for all activity that occurs under your account</li>
+          </ul>
+          <p>We reserve the right to suspend or terminate accounts that violate these Terms.</p>
+
+          <h2 id="billing">5. Subscription and Billing</h2>
+          <p>The Service is offered on a paid subscription basis. Current pricing is a one-time setup fee of <strong>$997</strong> and a recurring monthly subscription of <strong>$397/month</strong>. By subscribing, you authorize us to charge your payment method on a recurring monthly basis until you cancel.</p>
+          <p>Setup fees are non-refundable. Monthly subscription fees are non-refundable except as required by applicable law. You may cancel your subscription at any time through the billing portal. Cancellation takes effect at the end of the current billing period.</p>
+
+          <h2 id="acceptable-use">6. Acceptable Use</h2>
+          <p>You agree not to use the Service to:</p>
+          <ul>
+            <li>Violate any applicable laws or regulations</li>
+            <li>Send spam, unsolicited messages, or harassing communications</li>
+            <li>Collect personal data without proper consent from end users</li>
+            <li>Impersonate any person or entity</li>
+            <li>Attempt to gain unauthorized access to any part of the Service</li>
+            <li>Use the Service for any fraudulent or deceptive purpose</li>
+            <li>Reverse engineer, decompile, or disassemble any part of the Service</li>
+          </ul>
+
+          <h2 id="client-data">7. Client Data and Content</h2>
+          <p>You retain ownership of all data and content you submit to the Service ("Client Data"). By using the Service, you grant us a limited license to store, process, and transmit your Client Data solely to provide the Service. You are solely responsible for the accuracy, quality, and legality of your Client Data and for obtaining all necessary consents from your end users.</p>
+
+          <h2 id="ip">8. Intellectual Property</h2>
+          <p>The Service and its original content, features, and functionality are and will remain the exclusive property of The Campanile Group. Our trademarks and trade dress may not be used in connection with any product or service without our prior written consent.</p>
+
+          <h2 id="third-party">9. Third-Party Services</h2>
+          <p>The Service integrates with third-party services including but not limited to Stripe (payment processing), Cal.com (appointment scheduling), SendGrid (email delivery), OpenAI (AI processing), and Anthropic (AI processing). Your use of these third-party services is subject to their respective terms and privacy policies. We are not responsible for the practices of third-party services.</p>
+
+          <h2 id="disclaimers">10. Disclaimers</h2>
+          <p>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. AI-GENERATED RESPONSES ARE PROVIDED FOR INFORMATIONAL PURPOSES ONLY AND SHOULD NOT BE RELIED UPON AS PROFESSIONAL ADVICE.</p>
+
+          <h2 id="liability">11. Limitation of Liability</h2>
+          <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE CAMPANILE GROUP SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF OR RELATED TO YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE SERVICE IN THE THREE (3) MONTHS PRECEDING THE CLAIM.</p>
+
+          <h2 id="indemnification">12. Indemnification</h2>
+          <p>You agree to indemnify, defend, and hold harmless The Campanile Group, its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses arising from your use of the Service, your violation of these Terms, or your violation of any rights of a third party.</p>
+
+          <h2 id="termination">13. Termination</h2>
+          <p>We may suspend or terminate your access to the Service at any time, with or without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason at our sole discretion.</p>
+
+          <h2 id="governing-law">14. Governing Law</h2>
+          <p>These Terms shall be governed by the laws of the State of South Carolina, without regard to its conflict of law provisions. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts located in South Carolina.</p>
+
+          <h2 id="changes">15. Changes to Terms</h2>
+          <p>We reserve the right to modify these Terms at any time. We will notify users of material changes by email or through the Service. Your continued use of the Service after changes become effective constitutes acceptance of the revised Terms.</p>
+
+          <h2 id="contact">16. Contact</h2>
+          <p>For questions about these Terms, contact us at: <a href="mailto:support@hellodeskleads.com">support@hellodeskleads.com</a></p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo" aria-label="Hello Desk Leads">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <rect width="32" height="32" rx="8" fill="url(#logo-grad-footer-t)"/>
+              <path d="M9 11h6v4H9v-4zm0 6h6v4H9v-4zm8-6h6v10h-6V11z" fill="white" opacity="0.9"/>
+              <defs>
+                <linearGradient id="logo-grad-footer-t" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#F5A623"/><stop offset="1" stop-color="#C47800"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="nav-logo-text">Hello Desk <span class="accent">Leads</span></span>
+          </a>
+          <p class="footer-tagline">Your 24/7 AI receptionist. Never miss a lead again.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Product</h4>
+            <a href="/#features">Features</a>
+            <a href="/#pricing">Pricing</a>
+            <a href="/#demo">Live Demo</a>
+            <a href="/#how-it-works">How It Works</a>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Legal</h4>
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hello Desk Leads. All rights reserved.</p>
+        <p style="margin-top:0.25rem; font-size:0.75rem; color:var(--color-text-faint);">
+          <a href="terms.html" style="color:var(--color-text-muted);">Terms</a> &nbsp;·&nbsp;
+          <a href="privacy.html" style="color:var(--color-text-muted);">Privacy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
